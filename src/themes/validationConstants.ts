@@ -1,0 +1,23 @@
+export const ValidationConstants = {
+  emptyFirstName: 'Please enter name.',
+  emptyEmail: 'Please enter email address.',
+  emptyEmailOrPhoneNumber: 'Please enter email ID or mobile number.',
+  invalidPhoneNumber: 'Please enter valid mobile number.',
+  invalidEmail: 'Please enter valid email address.',
+  emptyPassword: 'Please enter password.',
+  shortPassword: 'Password should be at least 8 characters long.',
+  acceptTermCondition: 'Please agree with terms & conditions.',
+  invalidPassword: 'Password should not contain whitespaces.',
+  passwordConfirmPasword: 'Password & Confirm Password should be same.',
+  invalidPasswordNew:
+    'Password must include 1 upper case letter, 1 lower case letter, 1 numeric value, 1 special character and no spaces.',
+  address: 'Please enter address',
+  companyName: 'Please enter company name',
+  gstNumber: 'Please enter GST number',
+  accessphoto: 'Allow access to photos to upload photos from your library.',
+  fileSize: 'Image size should not be more than 20 MB.',
+  videoSize: 'Video duration should not be more than 2 minutes.',
+  internetCheck: 'Please check your internet connection.',
+  shortFirstName: 'Name should be at least 3 characters long.',
+  validOtp: 'Please enter valid OTP.',
+};
